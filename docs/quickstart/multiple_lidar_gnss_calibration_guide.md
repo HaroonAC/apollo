@@ -26,7 +26,7 @@ In many autonomous driving tasks such as HDMap production, the scans from multip
 
 ### Record Calibration Data
 
-When the LiDARs and GNSS are ready, use `/apollo/modules/calibration/multi_lidar_gnss/record.sh` to record calibration data. Note that, this script is only for recording  velodyne HDL64 and VLP16. For other purpose, some modification of this script is needed or just use rosbag record to do the same thing. Usually, 2 minites length of data is sufficient. After data capture, run `/apollo/modules/calibration/multi_lidar_gnss/calibrate.sh` to calibrate sensors. The script is composed of the following two steps.
+When the LiDARs and GNSS are ready, use `/apollo/modules/calibration/multi_lidar_gnss/record.sh` to record calibration data. Note that, this script is only for recording  velodyne HDL64 and VLP16. For other purpose, some modification of this script is needed or just use rosbag record to do the same thing. Usually, 2 minutes length of data is sufficient. After data capture, run `/apollo/modules/calibration/multi_lidar_gnss/calibrate.sh` to calibrate sensors. The script is composed of the following two steps.
 
 ### Export Data
 
